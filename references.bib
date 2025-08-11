@@ -1,0 +1,179 @@
+@misc{RFC9000,
+  author = {J. Iyengar and M. Thomson},
+  title = {RFC 9000: QUIC: A UDP-Based Multiplexed and Secure Transport},
+  year = {2021},
+  note = {Internet Engineering Task Force (IETF), \url{https://www.rfc-editor.org/rfc/rfc9000.html}}
+}
+
+
+@misc{RFC9002,
+  author = {J. Iyengar and I. Swett},
+  title = {RFC 9002: QUIC Loss Detection and Congestion Control},
+  year = {2021},
+  note = {Internet Engineering Task Force (IETF), \url{https://datatracker.ietf.org/doc/html/rfc9002}}
+}
+
+
+@misc{RFC8999,
+  author = {M. Thomson},
+  title = {RFC 8999: Version-Independent Properties of QUIC},
+  year = {2021},
+  note = {Internet Engineering Task Force (IETF), \url{https://www.rfc-editor.org/rfc/rfc8999.html}}
+}
+
+
+@inproceedings{Langley2017,
+  author = {A. Langley and A. Riddoch and A. Wilk and A. Vicente and C. Krasic and D. Zhang and F. Yang and F. Kouranov and I. Swett and J. Iyengar and J. Bailey and J. Dorfman and J. Roskind and J. Kulik and P. Westin and R. Tenneti and R. Shade and R. Hamilton and V. Vasiliev and W. Chang and Z. Shi},
+  title = {The QUIC Transport Protocol: Design and Internet-Scale Deployment},
+  booktitle = {Proceedings of the ACM Special Interest Group on Data Communication (SIGCOMM '17)},
+  year = {2017},
+  pages = {183--196},
+  publisher = {Association for Computing Machinery},
+  doi = {10.1145/3098822.3098842}
+}
+
+
+@misc{Dellaverson2017,
+  author = {J. Dellaverson and T. Li and Y. Wang and J. Iyengar and A. Afanasyev and L. Zhang},
+  title = {Understanding QUIC},
+  year = {2017},
+  note = {\url{https://web.cs.ucla.edu/~lixia/papers/UnderstandQUIC.pdf}}
+}
+
+
+@misc{Kumar2020,
+  author = {P. Kumar},
+  title = {QUIC (Quick UDP Internet Connections)--A Quick Study},
+  year = {2020},
+  note = {arXiv preprint arXiv:2010.03059, \url{https://arxiv.org/abs/2010.03059}}
+}
+
+
+@article{Polese2019,
+  author = {M. Polese and F. Chiariotti and E. Bonetto and F. Rigotto and A. Zanella and M. Zorzi},
+  title = {A Survey on Recent Advances in Transport Layer Protocols},
+  journal = {IEEE Communications Surveys \& Tutorials},
+  volume = {21},
+  number = {4},
+  pages = {3584--3608},
+  year = {2019},
+  doi = {10.1109/COMST.2019.2932905},
+  url = {https://ieeexplore.ieee.org/abstract/document/8786240}
+}
+
+
+@article{Kosek2021,
+  author = {M. Kosek and T. Shreedhar and V. Bajpai},
+  title = {Beyond QUIC V1: A First Look at Recent Transport Layer IETF Standardization Efforts},
+  journal = {IEEE Communications Magazine},
+  volume = {59},
+  number = {4},
+  pages = {24--29},
+  year = {2021},
+  url = {https://arxiv.org/abs/2102.07527}
+}
+
+
+@misc{McQuistin2021,
+  author = {S. McQuistin and V. Band and D. Jacob and C. Perkins},
+  title = {Describing QUIC's Protocol Data Units with Augmented Packet Header Diagrams},
+  year = {2021},
+  note = {Internet Engineering Task Force (IETF), \url{https://www.ietf.org/id/draft-mcquistin-quic-augmented-diagrams-05.html}}
+}
+
+
+@inproceedings{Volodina2020,
+  author = {E. Volodina and E. P. Rathgeb},
+  title = {Flow Control in the Context of the Multiplexed Transport Protocol QUIC},
+  booktitle = {2020 IEEE 45th Conference on Local Computer Networks (LCN)},
+  pages = {473--478},
+  year = {2020},
+  doi = {10.1109/LCN48667.2020.9314796},
+  url = {https://doi.org/10.1109/LCN48667.2020.9314796}
+}
+
+
+@article{Cui2017,
+  author = {Y. Cui and T. Li and C. Liu and X. Wang and M. Kuhlewind},
+  title = {Innovating Transport with QUIC: Design Approaches and Research Challenges},
+  journal = {IEEE Internet Computing},
+  volume = {21},
+  number = {2},
+  pages = {72--76},
+  year = {2017},
+  doi = {10.1109/MIC.2017.44},
+  url = {https://ieeexplore.ieee.org/document/7867726}
+}
+
+%Related works ref
+@techreport{Shang2016Challenges,
+  author       = {Wentao Shang and Yingdi Yu and Ralph Droms and Lixia Zhang},
+  title        = {Challenges in IoT Networking via TCP/IP Architecture},
+  institution  = {NDN Technical Reports, NDN-0038},
+  year         = {2016},
+  note         = {Revision 1: Feb 2016}
+}
+% This report (Wentao Shang *et al.*, 2016) surveys IoT constraints (small MTUs, lossy links, sleeping nodes) and notes that TCP/IP’s assumptions (long-lived reliable streams) often fail in IoT:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}. 
+
+@inproceedings{Liri2018Robustness,
+  author    = {Elizabeth Liri and Prateek K. Singh and Abdulrahman Bin Rabiah and Koushik Kar and Kiran Makhijani and K.~K. Ramakrishnan},
+  title     = {Robustness of IoT Application Protocols to Network Impairments},
+  booktitle = {Proc. IEEE Int. Symp. Local and Metropolitan Area Networks (LANMAN)},
+  year      = {2018}
+}
+% Liri *et al.* (2018) compare CoAP (UDP-based) vs. MQTT (TCP-based, MQTT-SN/UDP) vs. QUIC in IoT settings, noting CoAP’s confirmable vs. non-confirmable messaging and MQTT’s TCP QoS levels, and highlighting QUIC’s reduced handshake latency. 
+
+@misc{Shelby2014CoAP,
+  author       = {Z. Shelby and K. Hartke and C. Bormann},
+  title        = {{The Constrained Application Protocol (CoAP)}},
+  howpublished = {RFC 7252, IETF},
+  year         = {2014}
+}
+% RFC 7252 (Shelby *et al.*, 2014) defines CoAP for constrained nodes: a lightweight RESTful UDP protocol with confirmable (reliable) and non-confirmable messages, low overhead headers, optional retransmission, and multicast support.
+
+@article{Fernandez2021QUIC,
+  author    = {Fátima Fern\'andez and Mihail Zverev and Pablo Garrido and Jos\'e R. Ju\'arez and Josu Bilbao and Ram\'on Agüero},
+  title     = {Even Lower Latency in IIoT: Evaluation of {QUIC} in Industrial IoT Scenarios},
+  journal   = {Sensors},
+  volume    = {21},
+  number    = {17},
+  pages     = {5737},
+  year      = {2021},
+  doi       = {10.3390/s21175737}
+}
+% Fern\'andez *et al.* (2021) test MQTT over QUIC in IIoT; they note QUIC’s design (flow-controlled streams over UDP, 0-RTT handshake) aims to cut latency and mitigate head-of-line blocking compared to TCP. 
+
+@techreport{Grinnemo2002PRTP,
+  author       = {Karl-Johan Grinnemo and Anna Br\"unstrom},
+  title        = {A Simulation Based Performance Evaluation of {PRTP}},
+  institution  = {Karlstad University, Techn. Report 2002:35},
+  year         = {2002}
+}
+% Grinnemo and Br\"unstrom (2002) present PRTP, a TCP-based partially reliable protocol for soft real-time flows (e.g. video). PRTP lets applications trade some TCP reliability for better throughput and lower jitter, but the study notes PRTP is not TCP-friendly and best for error-prone wireless links.
+
+@techreport{Rajiullah2012PRSCTP,
+  author       = {Mohammad Rajiullah and Anna Br\"unstrom},
+  title        = {Performance Analysis and Improvement of {PR-SCTP} in an Event Logging Context},
+  institution  = {Karlstad University, Licentiate Thesis},
+  year         = {2012}
+}
+% Rajiullah (2012) analyzes PR-SCTP (the partial-reliability extension of SCTP). He explains that PR-SCTP allows per-message (per-chunk) reliability control via the Forward-TSN mechanism, letting applications skip or mark messages as non-critical to meet timeliness requirements.
+
+@misc{Iyengar2021QUIC,
+  author       = {Jana Iyengar and Martin Thomson},
+  title        = {{QUIC}: A UDP-Based Multiplexed and Secure Transport},
+  howpublished = {RFC 9000, IETF},
+  year         = {2021}
+}
+% RFC 9000 (Iyengar and Thomson, 2021) defines QUIC. It highlights QUIC’s multiplexed bidirectional streams over UDP, integrated TLS security, and *“low-latency connection establishment”*, directly addressing IoT needs for reduced handshake delays and avoiding TCP head-of-line blocking.
+
+@misc{OASIS2013MQTT,
+  author       = {{OASIS Open}},
+  title        = {OASIS Members to Advance {MQTT} Standard for M2M/IoT Reliable Messaging (Press Release)},
+  howpublished = {OASIS Open, Apr.~2013},
+  url          = {https://www.oasis-open.org/2013/04/25/oasis-members-to-advance-mqtt-standard-for-m2m-iot-reliable-messaging/},
+  year         = {2013}
+}
+% An OASIS press release (2013) describes MQTT as *“an extremely lightweight, simple yet reliable protocol…designed for use where small code footprints are often advantageous”*:contentReference[oaicite:2]{index=2}, noting its suitability for low-bandwidth, high-latency IoT links.
+
+% END
